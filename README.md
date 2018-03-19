@@ -1,5 +1,5 @@
 # Nand-to-Tetris- projects
-Project 1 
+### Project 1 
 This project contains HDL files which I edited to simulate logic gates such as AND, OR, Xor, Mux etc. 
 Each logic gate is either bit wise or 16-bit wise, this is stated in the title of the file. For example 'And16', 'And'.
 
