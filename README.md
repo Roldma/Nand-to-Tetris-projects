@@ -22,3 +22,16 @@ The second project consists of the following chips (built using the chips from t
 ##### Arithmetic Logic Unit (ALU)
 The ALU is contructed using all the previously built chips. It is a 16-bit ALU with two 16-bit inputs and one 16-bit output.
 There are 6 control operators which are bits used to complete a certain function such as (x+y),(x-y), (y-x), and many other similar functions. The other outputs are bits, zr and ng, which are used for 16-bit equality comparison and 16-bit negative comparison respectively.
+
+### Project 3
+The third project consists of the following chips, which are all sequential:
+1.Bit register
+2.16 bit register
+3.RAM8/RAM64/RAM512/RAM4k/RAM16k (each built separately)
+4.Program Counter
+##### Bit Register, RAM# , Program Counter
+- The (n)bit register is used to store n-bit(s) and was created with a primitive D flipflop.
+- The RAM# units contain multiple registers to form a memory unit.
+- The program counter is used to point to a certain instruction which is to be executed next in the current program.
+
+All the chips in project 3 are sequential chips and are based on a "master clock".
