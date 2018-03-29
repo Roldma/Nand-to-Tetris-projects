@@ -25,10 +25,10 @@ There are 6 control operators which are bits used to complete a certain function
 
 ### Project 3
 The third project consists of the following chips, which are all sequential:
-1.Bit register
-2.16 bit register
-3.RAM8/RAM64/RAM512/RAM4k/RAM16k (each built separately)
-4.Program Counter
+1. Bit register
+2. 16 bit register
+3. RAM8/RAM64/RAM512/RAM4k/RAM16k (each built separately)
+4. Program Counter
 ##### Bit Register, RAM# , Program Counter
 - The (n)bit register is used to store n-bit(s) and was created with a primitive D flipflop.
 - The RAM# units contain multiple registers to form a memory unit.
