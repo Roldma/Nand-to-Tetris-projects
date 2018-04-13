@@ -35,3 +35,12 @@ The third project consists of the following chips, which are all sequential:
 - The program counter is used to point to a certain instruction which is to be executed next in the current program.
 
 All the chips in project 3 are sequential chips and are based on a "master clock".
+
+### Project 4
+The fourth project is practice with a low level assembly style language / machine language. Manipulation of memory registers and addresses are done in .asm files to create program instructions for the hardware. The .asm files are created in a symbolic fashion and run through an assembler to translate these instructions into binary which output into a .hack file.
+##### Project A - Multiplication instruction
+The 'mult' files are instructions for the CPU to do multiplication with two registers and store the result in a third register.
+##### Project B - Fill screen instruction
+The 'fill' files are instructions for the cpu to access the screen memory map. The program instructs the CPU to fill the simulated screen with black pixels if a keypress is detected.
+
+
